@@ -2,16 +2,19 @@
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld :option="temp1" />
   <HelloWorld :option="temp2" />
+  <Three />
 </template>
 
 <script>
 import HelloWorld from './components/MyEchart.vue'
+import Three from './components/MyThree.vue'
 import { temp1, temp2 } from './mock'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Three
   },
   data() {
     return {

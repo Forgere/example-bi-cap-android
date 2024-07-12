@@ -23,6 +23,9 @@ importers:
       echarts:
         specifier: ^5.5.1
         version: 5.5.1
+      three:
+        specifier: ^0.166.1
+        version: 0.166.1
       vue:
         specifier: ^3.2.13
         version: 3.4.31
@@ -3706,6 +3709,9 @@ packages:
     engines: {node: '>= 10.13.0'}
     peerDependencies:
       webpack: ^4.27.0 || ^5.0.0
+
+  three@0.166.1:
+    resolution: {integrity: sha512-LtuafkKHHzm61AQA1be2MAYIw1IjmhOUxhBa0prrLpEMWbV7ijvxCRHjSgHPGp2493wLBzwKV46tA9nivLEgKg==}
 
   through2@4.0.2:
     resolution: {integrity: sha512-iOqSav00cVxEEICeD7TjLB1sueEL+81Wpzp2bY17uZjZN0pWZPuo4suZ/61VujxmqSGFfgOcNuTZ85QJwNZQpw==}
@@ -8231,6 +8237,8 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       webpack: 5.93.0
+
+  three@0.166.1: {}
 
   through2@4.0.2:
     dependencies:
