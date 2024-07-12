@@ -4,7 +4,7 @@
 
 <script setup>
 import { use } from 'echarts/core';
-import { CanvasRenderer } from 'echarts/renderers';
+import { SVGRenderer } from 'echarts/renderers';
 import { PieChart } from 'echarts/charts';
 import {
   TitleComponent,
@@ -15,7 +15,7 @@ import VChart, { THEME_KEY } from 'vue-echarts';
 import { ref, provide } from 'vue';
 
 use([
-  CanvasRenderer,
+  SVGRenderer,
   PieChart,
   TitleComponent,
   TooltipComponent,
