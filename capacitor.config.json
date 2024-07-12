@@ -1,0 +1,5 @@
+{
+  "appId": "com.webpack.app",
+  "appName": "webpack-chart",
+  "webDir": "dist"
+}
